@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RaportTeste</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">RaportTeste</h2>
+                <p class='attribute'><strong>Start Time: </strong>2023-05-10 16:00:14</p>
+                <p class='attribute'><strong>Duration: </strong>285.42 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 25, Pass: 24, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>tratare_alerte.Alerts</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_js_alert_accept</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Mesajul dupa acceptarea alertei: You successfully clicked an alert
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_js_confirm_cancel</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Mesajul dupa acceptarea alertei: You clicked: Cancel
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_js_confirm_ok</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Mesajul dupa acceptarea alertei: <selenium.webdriver.remote.webelement.WebElement (session="f541e83f3edacd7c9051de65af9d39d2", element="268b0e16-eac8-4bc5-9bfb-32cc12597eef")>
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_js_prompt_accept_no_text_insert</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Mesajul dupa acceptarea alertei: You entered:
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_js_prompt_accept_text_insert</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Mesajul dupa acceptarea alertei: You entered: test
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_js_prompt_cancel_no_text_inserted</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">WebDriverException: Message: unknown error: cannot determine loading status
+from no such window
+  (Session info: chrome=112.0.5615.140)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x005BDCE3+50899]
+	(No symbol) [0x0054E111]
+	(No symbol) [0x00455450]
+	(No symbol) [0x0044879A]
+	(No symbol) [0x00447118]
+	(No symbol) [0x0044778A]
+	(No symbol) [0x00450B74]
+	(No symbol) [0x0045AB28]
+	(No symbol) [0x0045D4D6]
+	(No symbol) [0x00447AE3]
+	(No symbol) [0x0045A835]
+	(No symbol) [0x004ADF77]
+	(No symbol) [0x0049B6F6]
+	(No symbol) [0x00477708]
+	(No symbol) [0x0047886D]
+	GetHandleVerifier [0x00823EAE+2566302]
+	GetHandleVerifier [0x008592B1+2784417]
+	GetHandleVerifier [0x0085327C+2759788]
+	GetHandleVerifier [0x00655740+672048]
+	(No symbol) [0x00558872]
+	(No symbol) [0x005541C8]
+	(No symbol) [0x005542AB]
+	(No symbol) [0x005471B7]
+	BaseThreadInitThunk [0x768500C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77947B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77947B1E+238]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\Mariana\PycharmProjects\UnitTest_selenium\tratare_alerte.py", line 19, in setUp
+    self.chrome.maximize_window()
+  File "C:\Users\Mariana\PycharmProjects\UnitTest_selenium\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 592, in maximize_window
+    self.execute(command, None)
+  File "C:\Users\Mariana\PycharmProjects\UnitTest_selenium\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Mariana\PycharmProjects\UnitTest_selenium\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from no such window
+  (Session info: chrome=112.0.5615.140)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x005BDCE3+50899]
+	(No symbol) [0x0054E111]
+	(No symbol) [0x00455450]
+	(No symbol) [0x0044879A]
+	(No symbol) [0x00447118]
+	(No symbol) [0x0044778A]
+	(No symbol) [0x00450B74]
+	(No symbol) [0x0045AB28]
+	(No symbol) [0x0045D4D6]
+	(No symbol) [0x00447AE3]
+	(No symbol) [0x0045A835]
+	(No symbol) [0x004ADF77]
+	(No symbol) [0x0049B6F6]
+	(No symbol) [0x00477708]
+	(No symbol) [0x0047886D]
+	GetHandleVerifier [0x00823EAE+2566302]
+	GetHandleVerifier [0x008592B1+2784417]
+	GetHandleVerifier [0x0085327C+2759788]
+	GetHandleVerifier [0x00655740+672048]
+	(No symbol) [0x00558872]
+	(No symbol) [0x005541C8]
+	(No symbol) [0x005542AB]
+	(No symbol) [0x005471B7]
+	BaseThreadInitThunk [0x768500C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77947B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77947B1E+238]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_js_prompt_cancel_text_inserted</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Mesajul dupa acceptarea alertei: You entered: null
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 7, Pass: 6, Error: 1 -- Duration: 71.50 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>basic_authPage.Authentication</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_auth</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 1 -- Duration: 15.20 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>context_menu_page.ContextMenu</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_context</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 1 -- Duration: 14.72 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>home_page.HomePageTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_basicauth_url</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_context_url</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_form_url</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_head</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_jsalert_PAGE</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_page_title</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 6, Pass: 6 -- Duration: 49.99 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>login_page.Login</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_brute_force_pass</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Nu am reusit sa gasesc parola. Continuam cautarea
+Parola secreta este SuperSecretPassword!
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_error_displayed</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_head</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_href</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_inchidere_mesaj_eroare</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>The text is not visible on the page! It's ok
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_lista_label</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_login_displayed</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_mesaj_eroare</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_verif_login_logout</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_verif_secure</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 10, Pass: 10 -- Duration: 134.01 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
